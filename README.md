@@ -36,7 +36,9 @@ Things you may want to cover:
   * In schedule.rb we write the whenever dsl syntax for the sake fof the configuration 
   * Now i followed the Documentation from medium https://medium.com/coffee-and-codes/schedule-tasks-using-whenever-gem-ruby-on-rails-50b9af025607.
   * Now in this documentation an important commands that i have found is 
-    ** rails g task my_custom_namespace my_task1 my_task2 my_task3
+  ```  
+    rails g task my_custom_namespace my_task1 my_task2 my_task3
+  ```  
   * Now once the command is made to execute there are another commands that have to be done like in schedule.rb 
   ```
     ENV[‘RAILS_ENV’] = “development”
